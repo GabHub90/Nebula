@@ -1,0 +1,5 @@
+declare @rif int,@ragsoc varchar(60)
+select @rif=max(CAST(num_rif_richiesta as int))+1 from mg_richieste as t1
+select @ragsoc=des_ragsoc from gn_anagrafiche where cod_anagra='888888'
+
+select @rif,@ragsoc

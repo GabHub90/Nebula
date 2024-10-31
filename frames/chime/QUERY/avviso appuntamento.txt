@@ -1,0 +1,37 @@
+SELECT
+t1.num_rif_movimento AS rif,
+t1.pren AS d_prenotazione,
+t1.num_rif_veicolo AS veicolo,
+isnull(t1.lams,'') AS lamentati,
+isnull(t4.des_ragsoc,'') AS ragsoc,
+t4.tel1 AS contatto,
+t3.mat_telaio AS telaio,
+t3.mat_targa AS targa,
+t3.des_veicolo AS descrizione,
+isnull(t5.d_invio,'') AS d_invio
+
+FROM (
+    SELECT 
+    num_rif_movimento,
+    CONVERT(VARCHAR(8),dat_prenotazione,112) as pren,
+    isnull(CONVERT(VARCHAR(8),dat_entrata_veicolo,112),'') as d_entrata,
+    num_rif_veicolo,
+    cod_anagra_util,
+    dbo.fnOT_lams(num_rif_movimento) as lams
+    
+    FROM GN_movtes_off 
+    
+    WHERE cod_officina=[reparto] AND isnull(CONVERT(VARCHAR(8),dat_prenotazione,112),'')=[d_prenotazione]
+    ) AS t1
+
+LEFT JOIN GN_movtes AS t2 ON t1.num_rif_movimento=t2.num_rif_movimento
+
+LEFT JOIN VE_anavei AS t3 ON t1.num_rif_veicolo=t3.num_rif_veicolo
+
+LEFT JOIN GN_anagrafiche AS t4 ON t1.cod_anagra_util=t4.cod_anagra
+
+LEFT JOIN GN_GAB_CHIME_storico AS t5 ON t1.num_rif_movimento=t5.num_rif_movimento AND t4.tel1=t5.contatto AND t5.giorno=[d_prenotazione] AND t5.azione=[azione]
+
+WHERE t2.cod_movimento='OOP' AND t2.ind_chiuso='N' AND t1.d_entrata=''
+
+order by t1.num_rif_movimento

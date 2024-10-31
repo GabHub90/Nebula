@@ -1,0 +1,165 @@
+body {
+	position: relative;
+	width: 100%;
+	height: 95%;
+}
+
+.chime_cover {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-color: #eeeeee;
+	opacity: 0.6;
+	display:none;
+	z-index:50;
+}
+
+.chime_cover2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:100%;
+	background-color: #dddddd;
+	opacity: 0.7;
+	z-index:10;
+}
+
+/* MAIN */
+
+.chime_left {
+	position: relative;
+	width: 59%;
+	height: 100%;
+}
+
+.chime_right {
+	position: absolute;
+	top: 0px;
+	left: 60%;
+	width:39%;
+	height: 100%;
+	border-left: 1px solid #333;
+	overflow-y: scroll;
+}
+
+.chime_head {
+	position: relative;
+	height: 5%;
+	widht:100%;
+	border-bottom:1px solid black;
+	font-size:12pt;
+	color: black;
+}
+
+.chime_cal {
+	position: relative;
+	width: 98%;
+	height:93%;
+	padding:5px;
+}
+
+.chime_list {
+	position: relative;
+	width: 95%;
+	height:98%;
+	padding: 5px;
+	
+}
+
+.chime_title_img {
+	width: 18px;
+	height: 18px;
+}
+
+
+/*CALENDARIO*/
+
+.chime_cal_head {
+	position: relative;
+	width:100%;
+	background-color:#fbe9c8;
+	height: 20px;
+}
+
+.chime_cal_arrow {
+	width:15px;
+	height:15px;
+	margin-left: 30px;
+	cursor:pointer;
+}
+
+.chime_cal_day {
+	position: relative;
+	width: 100%;
+	height:100px;
+	color: black;
+	font-size:10pt;
+	font-weight:bold;
+	text-align:center;
+}
+
+.chime_cal_block_td {
+	height:100px;
+	border: 1px solid black;
+	vertical-align:top;
+}
+
+.chime_cal_default {
+	position: absolute;
+	top: -5px;
+	left: 3px;
+	width: 10px;
+	height:30px;
+	z-index:20;
+	color: #f78232;
+}
+
+.chime_block_icon {
+	width:30px;
+	height:30px;
+	margin-left:5px;
+}
+
+/*LISTA*/
+
+.chime_list_cover {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-color: #eeeeee;
+	opacity: 0.6;
+	z-index:50;
+}
+
+.chime_list_div {
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #333;
+	font-size: 13pt;
+	text-align: left;
+	color: black;
+}
+
+.chime_list_icon {
+	width:20px;
+	height:20px;
+	
+}
+
+.chime_list_chk {
+	position: relative;
+	margin-left: 15px;
+	margin-right: 25px;
+	bottom: 5px;
+	font-size: 25pt;
+}
+
+.chime_list_contatto {
+	background-color: #a1c4cc;
+}
+
+.chime_error {
+	color: red;
+	font-weight: bold;
+}

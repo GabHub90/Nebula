@@ -1,0 +1,9 @@
+.gdmMaterialeDiv {
+    margin-top:10px;
+    border-top:1px solid #bbbbbb;
+    border-bottom:1px solid #bbbbbb;
+    border-left:1px solid #bbbbbb;
+    padding:3px;
+    box-sizing:border-box;
+    box-shadow:3px 2px #bbbbbb;
+}

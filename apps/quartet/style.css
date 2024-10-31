@@ -1,0 +1,55 @@
+.qtLeft {
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+    width:25%;
+    height:100%;
+}
+
+.qtRight {
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+    width:75%;
+    height:100%;
+}
+
+ .qtRepDiv {
+     position:relative;
+     display:inline-block;
+     vertical-align:top;
+     width:250px;
+     height:100%;
+     padding:5px;
+     box-sizing: border-box;
+     border:1px solid black;
+     margin-left:5px;
+     margin-right:5px;
+ }
+
+ .qtRepDivTitle {
+     height:8%;
+     font-weight:bold;
+     background-color:oldlace;
+ }
+
+ .qtRepDivBodyContainer {
+    height:92%;
+    width:100%;
+    overflow-y:scroll;
+}
+
+.qtRepDivBody {
+    width:90%;
+    padding:3px;
+    box-sizing: border-box;
+}
+
+.qtRepDivElem {
+    width:100%;
+    min-height:40px;
+    border:1px solid black;
+    margin-top: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+}

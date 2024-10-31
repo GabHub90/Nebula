@@ -1,0 +1,3175 @@
+{
+  "reparto": "VWS",
+  "coll": 4,
+  "tag": 20201202,
+  "tl": {
+    "0": {
+      "min": 0,
+      "end": 15,
+      "tag": "00:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "15": {
+      "min": 15,
+      "end": 30,
+      "tag": "00:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "30": {
+      "min": 30,
+      "end": 45,
+      "tag": "00:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "45": {
+      "min": 45,
+      "end": 60,
+      "tag": "00:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "60": {
+      "min": 60,
+      "end": 75,
+      "tag": "01:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "75": {
+      "min": 75,
+      "end": 90,
+      "tag": "01:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "90": {
+      "min": 90,
+      "end": 105,
+      "tag": "01:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "105": {
+      "min": 105,
+      "end": 120,
+      "tag": "01:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "120": {
+      "min": 120,
+      "end": 135,
+      "tag": "02:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "135": {
+      "min": 135,
+      "end": 150,
+      "tag": "02:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "150": {
+      "min": 150,
+      "end": 165,
+      "tag": "02:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "165": {
+      "min": 165,
+      "end": 180,
+      "tag": "02:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "180": {
+      "min": 180,
+      "end": 195,
+      "tag": "03:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "195": {
+      "min": 195,
+      "end": 210,
+      "tag": "03:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "210": {
+      "min": 210,
+      "end": 225,
+      "tag": "03:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "225": {
+      "min": 225,
+      "end": 240,
+      "tag": "03:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "240": {
+      "min": 240,
+      "end": 255,
+      "tag": "04:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "255": {
+      "min": 255,
+      "end": 270,
+      "tag": "04:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "270": {
+      "min": 270,
+      "end": 285,
+      "tag": "04:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "285": {
+      "min": 285,
+      "end": 300,
+      "tag": "04:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "300": {
+      "min": 300,
+      "end": 315,
+      "tag": "05:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "315": {
+      "min": 315,
+      "end": 330,
+      "tag": "05:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "330": {
+      "min": 330,
+      "end": 345,
+      "tag": "05:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "345": {
+      "min": 345,
+      "end": 360,
+      "tag": "05:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "360": {
+      "min": 360,
+      "end": 375,
+      "tag": "06:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "375": {
+      "min": 375,
+      "end": 390,
+      "tag": "06:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "390": {
+      "min": 390,
+      "end": 405,
+      "tag": "06:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "405": {
+      "min": 405,
+      "end": 420,
+      "tag": "06:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "420": {
+      "min": 420,
+      "end": 435,
+      "tag": "07:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "435": {
+      "min": 435,
+      "end": 450,
+      "tag": "07:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "450": {
+      "min": 450,
+      "end": 465,
+      "tag": "07:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "465": {
+      "min": 465,
+      "end": 480,
+      "tag": "07:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "480": {
+      "min": 480,
+      "end": 495,
+      "tag": "08:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "495": {
+      "min": 495,
+      "end": 510,
+      "tag": "08:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "510": {
+      "min": 510,
+      "end": 525,
+      "tag": "08:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "525": {
+      "min": 525,
+      "end": 540,
+      "tag": "08:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "540": {
+      "min": 540,
+      "end": 555,
+      "tag": "09:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "555": {
+      "min": 555,
+      "end": 570,
+      "tag": "09:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "570": {
+      "min": 570,
+      "end": 585,
+      "tag": "09:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "585": {
+      "min": 585,
+      "end": 600,
+      "tag": "09:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "600": {
+      "min": 600,
+      "end": 615,
+      "tag": "10:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "615": {
+      "min": 615,
+      "end": 630,
+      "tag": "10:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "630": {
+      "min": 630,
+      "end": 645,
+      "tag": "10:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "645": {
+      "min": 645,
+      "end": 660,
+      "tag": "10:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "660": {
+      "min": 660,
+      "end": 675,
+      "tag": "11:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "675": {
+      "min": 675,
+      "end": 690,
+      "tag": "11:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "690": {
+      "min": 690,
+      "end": 705,
+      "tag": "11:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "705": {
+      "min": 705,
+      "end": 720,
+      "tag": "11:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "720": {
+      "min": 720,
+      "end": 735,
+      "tag": "12:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "735": {
+      "min": 735,
+      "end": 750,
+      "tag": "12:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "750": {
+      "min": 750,
+      "end": 765,
+      "tag": "12:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "765": {
+      "min": 765,
+      "end": 780,
+      "tag": "12:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "780": {
+      "min": 780,
+      "end": 795,
+      "tag": "13:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "795": {
+      "min": 795,
+      "end": 810,
+      "tag": "13:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "810": {
+      "min": 810,
+      "end": 825,
+      "tag": "13:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "825": {
+      "min": 825,
+      "end": 840,
+      "tag": "13:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "840": {
+      "min": 840,
+      "end": 855,
+      "tag": "14:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "855": {
+      "min": 855,
+      "end": 870,
+      "tag": "14:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "870": {
+      "min": 870,
+      "end": 885,
+      "tag": "14:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "885": {
+      "min": 885,
+      "end": 900,
+      "tag": "14:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "900": {
+      "min": 900,
+      "end": 915,
+      "tag": "15:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "915": {
+      "min": 915,
+      "end": 930,
+      "tag": "15:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "930": {
+      "min": 930,
+      "end": 945,
+      "tag": "15:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "945": {
+      "min": 945,
+      "end": 960,
+      "tag": "15:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "960": {
+      "min": 960,
+      "end": 975,
+      "tag": "16:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "975": {
+      "min": 975,
+      "end": 990,
+      "tag": "16:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "990": {
+      "min": 990,
+      "end": 1005,
+      "tag": "16:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1005": {
+      "min": 1005,
+      "end": 1020,
+      "tag": "16:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1020": {
+      "min": 1020,
+      "end": 1035,
+      "tag": "17:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1035": {
+      "min": 1035,
+      "end": 1050,
+      "tag": "17:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1050": {
+      "min": 1050,
+      "end": 1065,
+      "tag": "17:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1065": {
+      "min": 1065,
+      "end": 1080,
+      "tag": "17:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1080": {
+      "min": 1080,
+      "end": 1095,
+      "tag": "18:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1095": {
+      "min": 1095,
+      "end": 1110,
+      "tag": "18:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1110": {
+      "min": 1110,
+      "end": 1125,
+      "tag": "18:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1125": {
+      "min": 1125,
+      "end": 1140,
+      "tag": "18:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1140": {
+      "min": 1140,
+      "end": 1155,
+      "tag": "19:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1155": {
+      "min": 1155,
+      "end": 1170,
+      "tag": "19:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1170": {
+      "min": 1170,
+      "end": 1185,
+      "tag": "19:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1185": {
+      "min": 1185,
+      "end": 1200,
+      "tag": "19:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1200": {
+      "min": 1200,
+      "end": 1215,
+      "tag": "20:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1215": {
+      "min": 1215,
+      "end": 1230,
+      "tag": "20:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1230": {
+      "min": 1230,
+      "end": 1245,
+      "tag": "20:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1245": {
+      "min": 1245,
+      "end": 1260,
+      "tag": "20:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1260": {
+      "min": 1260,
+      "end": 1275,
+      "tag": "21:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1275": {
+      "min": 1275,
+      "end": 1290,
+      "tag": "21:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1290": {
+      "min": 1290,
+      "end": 1305,
+      "tag": "21:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1305": {
+      "min": 1305,
+      "end": 1320,
+      "tag": "21:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1320": {
+      "min": 1320,
+      "end": 1335,
+      "tag": "22:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1335": {
+      "min": 1335,
+      "end": 1350,
+      "tag": "22:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1350": {
+      "min": 1350,
+      "end": 1365,
+      "tag": "22:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1365": {
+      "min": 1365,
+      "end": 1380,
+      "tag": "22:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1380": {
+      "min": 1380,
+      "end": 1395,
+      "tag": "23:00",
+      "point": 1,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1395": {
+      "min": 1395,
+      "end": 1410,
+      "tag": "23:15",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1410": {
+      "min": 1410,
+      "end": 1425,
+      "tag": "23:30",
+      "point": 0,
+      "half": 1,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    },
+    "1425": {
+      "min": 1425,
+      "end": 1440,
+      "tag": "23:45",
+      "point": 0,
+      "half": 0,
+      "flag": false,
+      "subs": {
+        "nominale": {
+          "flag": false
+        },
+        "actual": {
+          "flag": false
+        },
+        "agenda": {
+          "CARPU": {
+            "flag": false
+          },
+          "DIAVWS": {
+            "flag": false
+          },
+          "GOMPU": {
+            "flag": false
+          },
+          "MECVWS": {
+            "flag": false
+          },
+          "REVPU": {
+            "flag": false
+          }
+        }
+      }
+    }
+  }
+  }

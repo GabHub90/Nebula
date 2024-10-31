@@ -1,0 +1,272 @@
+[
+  {
+    "AUS": {
+      "CARPU": {
+        "reparto": "AUS",
+        "panorama": 55,
+        "subrep": "CARPU",
+        "cod_def": "N",
+        "pos": 1,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Carrozzeria",
+        "concerto": "CARR",
+        "off_concerto": "PC"
+      },
+      "MECAUS": {
+        "reparto": "AUS",
+        "panorama": 55,
+        "subrep": "MECAUS",
+        "cod_def": "S",
+        "pos": 2,
+        "rep_proprietario": "AUS",
+        "rep_macroreparto": "S",
+        "descrizione": "Meccanica",
+        "concerto": "MECPA",
+        "off_concerto": "PA"
+      },
+      "REVPU": {
+        "reparto": "AUS",
+        "panorama": 55,
+        "subrep": "REVPU",
+        "cod_def": "N",
+        "pos": 3,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Revisioni",
+        "concerto": "REVPU",
+        "off_concerto": "PR"
+      }
+    },
+    "CAR": {
+      "CARPU": {
+        "reparto": "CAR",
+        "panorama": 37,
+        "subrep": "CARPU",
+        "cod_def": "S",
+        "pos": 1,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Carrozzeria",
+        "concerto": "CARR",
+        "off_concerto": "PC"
+      }
+    },
+    "PAS": {
+      "DIAPAS": {
+        "reparto": "PAS",
+        "panorama": 60,
+        "subrep": "DIAPAS",
+        "cod_def": "N",
+        "pos": 1,
+        "rep_proprietario": "PAS",
+        "rep_macroreparto": "S",
+        "descrizione": "Diagnosi",
+        "concerto": "DIAAP",
+        "off_concerto": "AP"
+      },
+      "MECPAS": {
+        "reparto": "PAS",
+        "panorama": 60,
+        "subrep": "MECPAS",
+        "cod_def": "S",
+        "pos": 2,
+        "rep_proprietario": "PAS",
+        "rep_macroreparto": "S",
+        "descrizione": "Meccanica",
+        "concerto": "MECAP",
+        "off_concerto": "AP"
+      }
+    },
+    "PNP": {
+      "CARPU": {
+        "reparto": "PNP",
+        "panorama": 49,
+        "subrep": "CARPU",
+        "cod_def": "N",
+        "pos": 1,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Carrozzeria",
+        "concerto": "CARR",
+        "off_concerto": "PC"
+      },
+      "PREPNP": {
+        "reparto": "PNP",
+        "panorama": 49,
+        "subrep": "PREPNP",
+        "cod_def": "S",
+        "pos": 2,
+        "rep_proprietario": "PNP",
+        "rep_macroreparto": "S",
+        "descrizione": "Preconsegna",
+        "concerto": "PREPU",
+        "off_concerto": "PN"
+      },
+      "REVPU": {
+        "reparto": "PNP",
+        "panorama": 49,
+        "subrep": "REVPU",
+        "cod_def": "N",
+        "pos": 3,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Revisioni",
+        "concerto": "REVPU",
+        "off_concerto": "PR"
+      }
+    },
+    "POS": {
+      "CARPU": {
+        "reparto": "POS",
+        "panorama": 53,
+        "subrep": "CARPU",
+        "cod_def": "N",
+        "pos": 1,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Carrozzeria",
+        "concerto": "CARR",
+        "off_concerto": "PC"
+      },
+      "DIAPOS": {
+        "reparto": "POS",
+        "panorama": 53,
+        "subrep": "DIAPOS",
+        "cod_def": "N",
+        "pos": 2,
+        "rep_proprietario": "POS",
+        "rep_macroreparto": "S",
+        "descrizione": "Diagnosi",
+        "concerto": "DIAPP",
+        "off_concerto": "PP"
+      },
+      "MECPOS": {
+        "reparto": "POS",
+        "panorama": 53,
+        "subrep": "MECPOS",
+        "cod_def": "S",
+        "pos": 3,
+        "rep_proprietario": "POS",
+        "rep_macroreparto": "S",
+        "descrizione": "Meccanica",
+        "concerto": "MECPP",
+        "off_concerto": "PP"
+      },
+      "REVPU": {
+        "reparto": "POS",
+        "panorama": 53,
+        "subrep": "REVPU",
+        "cod_def": "N",
+        "pos": 4,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Revisioni",
+        "concerto": "REVPU",
+        "off_concerto": "PR"
+      }
+    },
+    "PRP": {
+      "REVPU": {
+        "reparto": "PRP",
+        "panorama": 21,
+        "subrep": "REVPU",
+        "cod_def": "S",
+        "pos": 1,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Revisioni",
+        "concerto": "REVPU",
+        "off_concerto": "PR"
+      }
+    },
+    "UPM": {
+      "MECUPM": {
+        "reparto": "UPM",
+        "panorama": 27,
+        "subrep": "MECUPM",
+        "cod_def": "S",
+        "pos": 1,
+        "rep_proprietario": "UPM",
+        "rep_macroreparto": "S",
+        "descrizione": "Meccanica",
+        "concerto": "USAPU",
+        "off_concerto": "PU"
+      },
+      "REVPU": {
+        "reparto": "UPM",
+        "panorama": 27,
+        "subrep": "REVPU",
+        "cod_def": "N",
+        "pos": 2,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Revisioni",
+        "concerto": "REVPU",
+        "off_concerto": "PR"
+      }
+    },
+    "VWS": {
+      "DIAVWS": {
+        "reparto": "VWS",
+        "panorama": 62,
+        "subrep": "DIAVWS",
+        "cod_def": "N",
+        "pos": 1,
+        "rep_proprietario": "VWS",
+        "rep_macroreparto": "S",
+        "descrizione": "Diagnosi",
+        "concerto": "DIAPV",
+        "off_concerto": "PV"
+      },
+      "MECVWS": {
+        "reparto": "VWS",
+        "panorama": 62,
+        "subrep": "MECVWS",
+        "cod_def": "S",
+        "pos": 2,
+        "rep_proprietario": "VWS",
+        "rep_macroreparto": "S",
+        "descrizione": "Meccanica",
+        "concerto": "MECPV",
+        "off_concerto": "PV"
+      },
+      "CARPU": {
+        "reparto": "VWS",
+        "panorama": 62,
+        "subrep": "CARPU",
+        "cod_def": "N",
+        "pos": 3,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Carrozzeria",
+        "concerto": "CARR",
+        "off_concerto": "PC"
+      },
+      "GOMPU": {
+        "reparto": "VWS",
+        "panorama": 62,
+        "subrep": "GOMPU",
+        "cod_def": "N",
+        "pos": 4,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Gommista",
+        "concerto": "GOMPU",
+        "off_concerto": "PG"
+      },
+      "REVPU": {
+        "reparto": "VWS",
+        "panorama": 62,
+        "subrep": "REVPU",
+        "cod_def": "N",
+        "pos": 5,
+        "rep_proprietario": "",
+        "rep_macroreparto": "S",
+        "descrizione": "Revisioni",
+        "concerto": "REVPU",
+        "off_concerto": "PR"
+      }
+    }
+  }
+  ]

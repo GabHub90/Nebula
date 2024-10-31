@@ -1,0 +1,8 @@
+create function fnGET_bf_nd_rifric ()
+returns bigint
+As
+BEGIN
+    DECLARE @rif as bigint
+    select @rif=max(CAST(num_rif_richiesta as int))+1 from mg_richieste
+    return @rif
+END

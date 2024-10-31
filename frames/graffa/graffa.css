@@ -1,0 +1,199 @@
+body {
+	font-family:arial;
+	font-size:9pt;
+}
+
+label {
+	font-size:9pt;
+	font-weight:bold;
+}
+
+/* TITIOLO */
+
+.graffa_titolo {
+	position: relative;
+	width: 1200px;
+	height: 50px;
+	color: black;
+	font-size: 15pt;
+	font-weight:bold;
+	padding: 20px;
+}
+
+.graffa_title_img {
+	position: relative;
+	width: 50px;
+	height: 50px;
+}
+
+.graffa_repimg {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	margin-left:50px;
+	top: -5px;
+	cursor: pointer;
+}
+
+.graffa_main {
+	position: relative;
+}
+
+.graffa_st0_left {
+	position:absolute;
+	top: 5px;
+	left: 20px;
+	width:350px;
+	height: 680px;
+	border-right: 1px solid #000000;
+}
+
+.graffa_st0_right {
+	position:absolute;
+	top: 5px;
+	left: 400px;
+	width:850px;
+	height: 680px;
+	overflow-y:scroll;
+}
+
+.graffa_st0_cal {
+	position: relative;
+	top: 10px;
+}
+
+.graffa_pdf {
+	position: relative;
+	top: 40px;
+	left: 15px;
+	width: 300px;
+	height: 350px;
+}
+
+
+/*CALENDARIO*/
+
+.cal_tab {
+	table-layout:auto;
+	font-size: 8pt;
+}
+
+.cal_command {
+	background-color: #d8d8d3;
+	color:black;
+	text-align:center;
+	font-size:13pt;
+	z-index:1;
+}
+
+.cal_arrow {
+	width: 50px;
+	height:15px;
+	top: 5px;
+	cursor:pointer;
+	z-index:1;
+}
+
+.cal_block {
+	position: absolute;
+	text-align:center;
+	padding: 2px;
+	top: 30px;
+	width: 100%;
+	z-index:1;
+}
+
+.cal_block_td {
+	height:30px;
+	border: 1px solid black;
+	z-index:1;
+	vertical-align:top;
+}
+
+.cal_day {
+	position: relative;
+	width: 100%;
+	color: black;
+	font-size:10pt;
+	font-weight:bold;
+	text-align:right;
+	z-index:1;
+}
+
+.cal_default {
+	position: absolute;
+	top: -5px;
+	left: 3px;
+	width: 10px;
+	height:30px;
+	z-index:1;
+}
+
+.cal_festa {
+	position: relative;
+	width: 100%;
+	color: black;
+	font-size:8pt;
+	font-weight:bold;
+	text-align: center;
+	z-index:1;
+}
+
+.cal_info {
+	position:relative;
+	width:100%;
+	z-index:1;
+}
+
+.cal_day_num {
+	cursor:pointer;
+}
+
+
+/* LISTA */
+
+.graffa_stat_pren {
+	position: relative;
+	width:81px;
+	height:15px;
+	font-size:8pt;
+}
+
+.graffa_riga_pren_g td {
+	background-color:#c1faba;
+	border-top: 1px solid #7f7f7f;
+	height: 30px;
+}
+
+.graffa_riga_pren_r td {
+	background-color:#fdc7c7;
+	border-top: 1px solid #7f7f7f;
+	height: 30px;
+}
+
+.graffa_riga_pren_w td {
+	background-color:white;
+	border-top: 1px solid #7f7f7f;
+	height: 30px;
+}
+
+.graffa_riga_lams_g td {
+	background-color:#c1faba;
+	border-bottom: 1px solid #7f7f7f;
+	height: 20px;
+}
+
+.graffa_riga_lams_r td {
+	background-color:#fdc7c7;
+	border-bottom: 1px solid #7f7f7f;
+	height: 20px;
+}
+
+.graffa_riga_lams_w td {
+	background-color:white;
+	border-bottom: 1px solid #7f7f7f;
+	height: 20px;
+}
+
+
+

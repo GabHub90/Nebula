@@ -1,0 +1,29 @@
+.c2r_table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: max-content;
+}
+
+.c2r_table th {
+    width:85px;
+    font-size:0.8em;
+    text-align:center;
+}
+
+.c2r_table td {
+    width:85px;
+    font-size:0.8em;
+    text-align:center;
+}
+
+.c2r_subtot td {
+    background-color:#dddddd;
+}
+
+.c2r_clatot td {
+    background-color:#cde2c4;
+}
+
+.c2r_blotot td {
+    background-color:#d8c4e2;
+}

@@ -1,0 +1,37 @@
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px dotted #000000;
+}
+
+.ermes_panorama_form lable {
+    font-size:0.9em;
+    font-weight:bold;
+}
+
+.ermes_gestione_form lable {
+    font-size:0.9em;
+    font-weight:bold;
+}
+
+.ermes_ticket_panorama {
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:1px solid rgb(59, 56, 56);
+    padding:3px;
+    box-sizing:border-box;
+}
+
+.ermes_miei_form lable {
+    font-size:0.9em;
+    font-weight:bold;
+}
+
+.ermes_ticket_head_icon {
+    /*width:15px;*/
+    height:15px;
+    margin-left:5px;
+}

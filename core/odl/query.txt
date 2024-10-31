@@ -1,0 +1,37 @@
+//STATISTICHE LAMENTATO
+
+SELECT
+    isnull(mvt.qta_tempario,0) AS ore_prenotate_totali,
+    isnull(fatt.ore_fatturate,0) AS ore_fatturate_totali,
+    mar.*
+    
+    FROM (
+        SELECT
+        
+        SUM(isnull(t1.qta_ore_lavorate,0)) AS ore_lavorate,
+        t1.num_rif_movimento,
+        t1.cod_inconveniente,
+        t1.cod_operaio
+        
+        FROM of_riltem AS t1
+        WHERE t1.num_rif_movimento='1390549' AND t1.cod_inconveniente='A'
+        GROUP BY t1.num_rif_movimento,t1.cod_inconveniente,t1.cod_operaio
+                
+    ) as mar
+
+    LEFT JOIN (
+        SELECT
+        t1.num_rif_movimento,
+        t1.cod_inconveniente,
+        sum(isnull(qta_pezzi,0)) AS ore_fatturate
+            
+        FROM GN_MOVDET AS t1
+            
+        WHERE t1.ind_tipo_riga = 'M' AND (t1.cod_operazione<>'LT' and t1.ind_operazione_esterna<>'S') AND t1.num_rif_movimento='1390549' AND t1.cod_inconveniente='A'
+            
+        GROUP BY t1.num_rif_movimento,t1.cod_inconveniente
+            
+    ) AS fatt ON mar.num_rif_movimento=fatt.num_rif_movimento
+   
+
+    LEFT JOIN GN_MOVDET AS mvt ON mvt.ind_tipo_riga = 'I' AND mar.num_rif_movimento=mvt.num_rif_movimento AND mar.cod_inconveniente=mvt.cod_inconveniente

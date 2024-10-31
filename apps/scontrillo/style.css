@@ -1,0 +1,30 @@
+.sct_title span{
+    vertical-align: middle;
+}
+
+.sct_saldo_div {
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    height:95%;
+    padding:5px;
+    box-sizing:border-box;
+    margin-top:1%;
+}
+
+.sct_saldo_tab {
+    border-spacing: 0 10px; /* 0px di spazio orizzontale, 10px di spazio verticale */
+    border-collapse: separate;
+}
+
+.sct_saldo_tab tr td:first-child {
+    font-weight:bold;
+}
+
+/*.strillo_incasso_select .strillo_incasso_hidden{
+    display:none;
+}
+
+.strillo_incasso_select:hover .strillo_incasso_hidden{
+    display:block;
+}*/

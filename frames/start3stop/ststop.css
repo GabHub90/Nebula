@@ -1,0 +1,597 @@
+
+
+body {
+	position: relative;
+	width: 1280px;
+	height: 800px;
+}
+
+.st_container {
+	position: relative;
+	width:100%;
+	height:100%;
+	overflow-y:scroll;
+}
+
+/* MAIN */
+
+.titolo {
+	position: relative;
+	width: 100%;
+	height:30px;
+	font-size: 16pt;
+	text-align: left;
+}
+
+.title_img {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	left: 10px;
+}
+
+.refresh {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	left: 15px;
+}
+
+.bar {
+	position: relative;
+	width: 100%;
+	height: 25px;
+	top: 0px;
+	background-color: black;
+	font-size: 12pt;
+	font-weight: bold;
+	border: 1px solid #000000;
+	font-family: arial;
+}
+
+.cover {
+	position: absolute;
+	width: 101%;
+	height:100%;
+	top: 0px;
+	left: 0px;
+	background-color: #eeeeee;
+	opacity: 0.6;
+	display:none;
+	z-index:10;
+}
+
+.cover2 {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-color: #eeeeee;
+	opacity: 0.6;
+	display:none;
+	z-index:50;
+}
+
+/* barra dei menù */
+
+.repimg {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+
+.reptag {
+	position:absolute;
+	top:20px;
+	width: 70px;
+	height:25px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:10pt;
+	cursor:pointer;
+}
+
+.reptxt {
+	position: absolute;
+	left:0px;
+	top: 5px;
+	width:100%;
+	z-index:2;
+	background-color:transparent;
+}
+
+.repbar {
+	position: absolute;
+	left: 5px;
+	width: 300px;
+	top: 3px;
+}
+
+.collbar {
+	position: absolute;
+	top: 0px;
+	left: 350px;
+	height: 100%;
+	width: 900px;
+}
+
+.collbutt {
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width:30px;
+	height:15px;
+	padding: 2px;
+	text-align:center;
+	font-size:12pt;
+	font-weight:bold;
+	cursor:pointer;
+}
+/* Main DIV */
+
+.main_div {
+	position: relative;
+	left: 0px;
+	width: 100%;
+	height:100%;
+}
+
+.coll_div {
+	position: relative;
+	width:99%;
+	color:black;
+	font-family:arial;
+	font-size:11pt;
+	border-bottom: 2px solid #000000;
+	padding: 4px;
+}
+
+.coll_intest_div {
+	position: relative;
+	height:20px;
+	background-color: #f3f3e7;
+}
+
+.coll_intest_txt {
+	position: relative;
+	height: 100%;
+	top: 0px;
+	left: 5px;
+}
+
+.coll_lam_block {
+	position:relative;
+	width:1200px;
+	left: 10px;
+	min-height:25px;
+}
+
+.lam_table_div {
+	position: relative;
+}
+
+.lam_table {
+	position: relative;
+	width:1230px;
+	border-collapse:collapse;
+}
+
+.lam_table th {
+	font-family:arial;
+	font-size:10pt;
+	font-weight:normal;
+}
+
+.lam_table td {
+	position: relative;
+	text-align:center;
+}
+
+.lam_button_img {
+	width: 60px;
+	height: 18px;
+	cursor:pointer;
+}
+
+.lam_icon_img {
+	width: 20px;
+	height: 20px;
+}
+
+.lam_icon_div {
+	position: absolute;
+	top: 0px;
+	left: 0 px;
+	width:80px;
+	height: 20px;
+	/*border: 1px solid #fa8f08;*/
+	text-align:center;
+	color:black;
+	font-size:12px;
+	font-weight:bold;
+	display:none;
+	cursor:pointer;
+}
+
+.error {
+	position: relative;
+	left: 0px;
+	top: 3px;
+	width:100%;
+	color: red;
+	background-color: #f3cdcd;
+	font-family:arial;
+	font-size:12pt;
+	font-weight:bold;
+	margin-bottom:2px;
+}
+
+.error_button {
+	position: relative;
+	top: 2px;
+	font-size:13px;
+	font-weight:bold;
+	color: blue;
+}
+
+.prova_vett {
+	text-align:left;
+	color: #2661ef;
+	font-size:8pt;
+	font-weight:bold;
+}
+
+/* NUOVO */
+
+.nuovo_div {
+	position: absolute;
+	width:900px ;
+	height: 550px;
+	top: 55px;
+	left: 50%;
+	margin-left: -450px;
+	background-color:#9e9898;
+	color:black;
+	font-family:arial;
+	font-size:12pt;
+	font-weight:bold;
+	display:none;
+	z-index:20;
+}
+
+.st_open_head {
+	position: relative;
+	width: 100%;
+	height:200px;
+}
+
+.st_open_subhead {
+	position: relative;
+	float: left;
+	width: 298px;
+	height: 200px;
+}
+
+.st_open_lamentati {
+	position: relative;
+	margin-top: 20px;
+	width: 880px;
+	height:280px;
+	left: 50%;
+	margin-left: -441px;
+	border: 1px solid black;
+	background-color: bisque;
+	color: black;
+}
+
+.nuovo_header {
+	position: absolute;
+	width: 100%;
+	height:40px;
+	top:10px;
+	left: 0px;
+	text-align:center;
+	font-size:14pt;
+}
+
+.nuovo_attesa {
+	position: absolute;
+	width: 100%;
+	height:40px;
+	top:50px;
+	left: 0px;
+	text-align:center;
+	display:none;
+}
+.nuovo_chiusura{
+	position: absolute;
+	width: 200px;
+	left: 20px;
+	top: 20px;
+	display:none;
+}
+
+.nuovo_odl {
+	position: absolute;
+	width: 100%;
+	height:60px;
+	top:100px;
+	left: 0px;
+	text-align:center;
+}
+
+.nuovo_lam {
+	position: absolute;
+	width: 890px;
+	height: 250px;
+	top:180px;
+	left: 5px;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+}
+
+.nuovo_footer {
+	position: absolute;
+	width: 100%;
+	height:40px;
+	bottom:5px;
+	left: 0px;
+	text-align:center;
+}
+
+.nuovo_lam_table {
+	border-collapse:collapse;
+	color: black;
+}
+
+.nuovo_lam_table td {
+	position: relative;
+	text-align:center;
+	height: 25px;
+}
+
+.nuovo_speciale {
+	position:absolute;
+	top: 20px;
+	left: 750px;
+	width:140px;
+	text-align:left;
+	display:none;
+}
+
+.nuovo_speciale_img {
+	position:relative;
+	/*margin-top: 15px;*/
+	width:25px;
+	height:25px;
+	cursor: pointer;
+}
+
+.nuovo_speciale_img_pw {
+	position:relative;
+	/*margin-top: 15px;*/
+	width:35px;
+	height:35px;
+	cursor: pointer;
+}
+
+/* EXTRA */
+
+.extra_div {
+	position: absolute;
+	width:300px ;
+	height: 300px;
+	top: 55px;
+	left: 50%;
+	margin-left: -150px;
+	background-color:black;
+	color:white;
+	font-family:arial;
+	font-size:12pt;
+	font-weight:bold;
+	display:none;
+	z-index:20;
+}
+
+.extra_1500 {
+	position:relative;
+	width: 280px;
+	left: 50%;
+	margin-left:-140px;
+	text-align:center;
+	display:none;
+}
+
+.extra_code {
+	position:relative;
+	width: 280px;
+	left: 50%;
+	margin-left:-140px;
+	text-align:center;
+	color: fuchsia;
+	display:none;
+}
+
+.extra_start{
+	display:inline;
+}
+
+.extra_footer {
+	position: absolute;
+	width: 100%;
+	height:80px;
+	bottom:5px;
+	left: 0px;
+	text-align:center;
+}
+
+/* PASSWORD */
+
+.pw_div {
+	position: absolute;
+	width:300px ;
+	height: 300px;
+	top: 55px;
+	left: 50%;
+	margin-left: -150px;
+	background-color:black;
+	color:white;
+	font-family:arial;
+	font-size:12pt;
+	font-weight:bold;
+	display:none;
+	z-index:60;
+}
+
+.pw_title {
+	position:relative;
+	width: 100%;
+	margin-top: 20px;
+	text-align:center;
+	color: fuchsia;
+}
+
+.pw_password {
+	position:relative;
+	width: 280px;
+	left: 50%;
+	margin-left:-140px;
+	margin-top: 20px;
+	text-align:center;
+}
+
+.pw_start{
+	display:inline;
+}
+
+.pw_footer {
+	position: absolute;
+	width: 100%;
+	height:80px;
+	bottom:5px;
+	left: 0px;
+	text-align:center;
+}
+
+/* CHIUSURA */
+
+.chiusura_div {
+	position: absolute;
+	width:300px ;
+	height: 300px;
+	top: 55px;
+	left: 50%;
+	margin-left: -150px;
+	background-color:black;
+	color:white;
+	font-family:arial;
+	font-size:12pt;
+	font-weight:bold;
+	display:none;
+	z-index:20;
+}
+
+.chiusura_form {
+	position:relative;
+	width: 200px;
+	left: 50%;
+	margin-left:-100px;
+	text-align:center;
+}
+
+.chiusura_stop {
+	position: relative;
+	width:100%;
+	display:none;
+}
+
+.chiusura_stop_rt {
+	display:none;
+}
+
+.chiusura_start{
+	display:none;
+}
+
+.chiusura_footer {
+	position: absolute;
+	width: 100%;
+	height:80px;
+	bottom:5px;
+	left: 0px;
+	text-align:center;
+}
+
+.chiusura_ant {
+	position: absolute;
+	width: 30px;
+	left: 8px;
+	top: 260px;
+	display:none;
+}
+
+/* PROVA */
+
+.prova_div {
+	position: absolute;
+	width:300px ;
+	height: 300px;
+	top: 55px;
+	left: 50%;
+	margin-left: -150px;
+	background-color:black;
+	color:white;
+	font-family:arial;
+	font-size:12pt;
+	font-weight:bold;
+	display:none;
+	z-index:20;
+}
+
+.prova_flag {
+	position:relative;
+	width: 160px;
+	left: 50%;
+	margin-left:-80px;
+	text-align:left;
+}
+
+.prova_start{
+	display:inline;
+}
+
+.prova_footer {
+	position: absolute;
+	width: 100%;
+	height:80px;
+	bottom:5px;
+	left: 0px;
+	text-align:center;
+}
+
+/*COLORI PROVA*/
+.prova_gar {
+	background-color: #a7f281;
+}
+.prova_pag {
+	background-color: #a0e5f7;
+}
+.prova_corr {
+	background-color: #809df2;
+}
+.prova_int {
+	background-color: #bdb4c1;
+}
+.prova_ser {
+	background-color: #e69bed;
+}
+.prova_carr {
+	background-color: #e8bc64;
+}
+.prova_esterno {
+	background-color: #e8ed86;
+}

@@ -1,0 +1,104 @@
+CREATE FUNCTION [dbo].[fnMG_DISP_ARTICOLO_MAG]  
+(    @data as datetime   , @tipo_articolo as varchar(5) , @articolo as varchar(18) , @societa as varchar(10) ,@magazzino as varchar(2) )
+RETURNS decimal(12,2) 
+AS
+
+BEGIN
+
+declare @giac  as decimal(12,2)
+
+select @giac = 0
+
+select @giac = num_giacenza_iniziale 
+from mg_anaart_saldi 
+where cod_societa       = @societa 
+and   cod_tipo_articolo = @tipo_articolo 
+and   cod_articolo      = @articolo
+and   cod_magazzino     = @magazzino
+
+
+select @giac = @giac - neg
+from mg_anaart_saldi with (nolock)  inner join (
+ select cod_tipo_articolo,cod_articolo,cod_magazzino,gn_movdet.cod_societa,sum(qta_pezzi) as neg 
+from 
+( gn_movdet with (nolock) 
+inner join tb_mag_caumov with (nolock)  
+on gn_movdet.cod_movimento = tb_mag_caumov.cod_movimento and tb_mag_caumov.des_tipo_movimento_magazzino ='S')
+inner join gn_movtes_doc with (nolock)  on
+gn_movdet.num_rif_movimento = gn_movtes_doc.num_rif_movimento and
+gn_movdet.cod_societa = gn_movtes_doc.cod_societa 
+and dat_documento_i < @data
+inner join gn_movtes_off on
+gn_movtes_off.num_rif_movimento = gn_movdet.num_rif_movimento 
+and isnull(gn_movtes_off.ind_preventivo,'N') ='N'
+where gn_movdet.cod_societa       = @societa 
+and   gn_movdet.cod_tipo_articolo = @tipo_articolo 
+and   gn_movdet.cod_articolo      = @articolo
+and   gn_movdet.cod_magazzino      = @magazzino 
+
+group by cod_tipo_articolo,cod_articolo,cod_magazzino,gn_movdet.cod_societa
+
+) m1
+on mg_anaart_saldi.cod_societa = m1.cod_societa and
+   mg_anaart_saldi.cod_magazzino = m1.cod_magazzino and
+   mg_anaart_saldi.cod_tipo_articolo = m1.cod_tipo_articolo and
+   mg_anaart_saldi.cod_articolo = m1.cod_articolo 
+
+
+select @giac = @giac - neg
+from mg_anaart_saldi with (nolock)  inner join (
+ select cod_tipo_articolo,cod_articolo,cod_magazzino,gn_movdet.cod_societa,sum(qta_pezzi) as neg 
+from 
+( gn_movdet with (nolock) 
+inner join tb_mag_caumov with (nolock)  
+on gn_movdet.cod_movimento = tb_mag_caumov.cod_movimento and tb_mag_caumov.des_tipo_movimento_magazzino ='S')
+inner join gn_movtes_doc with (nolock)  on
+gn_movdet.num_rif_movimento = gn_movtes_doc.num_rif_movimento and
+gn_movdet.cod_societa = gn_movtes_doc.cod_societa 
+and dat_documento_i < @data
+inner join gn_movtes_mag on
+gn_movtes_mag.num_rif_movimento = gn_movdet.num_rif_movimento 
+and isnull(gn_movtes_mag.ind_preventivo,'N') ='N'
+where gn_movdet.cod_societa       = @societa 
+and   gn_movdet.cod_tipo_articolo = @tipo_articolo 
+and   gn_movdet.cod_articolo      = @articolo
+and   gn_movdet.cod_magazzino     = @magazzino
+
+group by cod_tipo_articolo,cod_articolo,cod_magazzino,gn_movdet.cod_societa
+
+) m1
+on mg_anaart_saldi.cod_societa = m1.cod_societa and
+   mg_anaart_saldi.cod_magazzino = m1.cod_magazzino and
+   mg_anaart_saldi.cod_tipo_articolo = m1.cod_tipo_articolo and
+   mg_anaart_saldi.cod_articolo = m1.cod_articolo 
+
+
+select @giac = @giac + pos
+from mg_anaart_saldi with (nolock)  inner join (
+select cod_tipo_articolo,cod_articolo,cod_magazzino,gn_movdet.cod_societa,sum(qta_pezzi) as pos
+from 
+( gn_movdet with (nolock) 
+inner join tb_mag_caumov with (nolock)  
+on gn_movdet.cod_movimento = tb_mag_caumov.cod_movimento and tb_mag_caumov.des_tipo_movimento_magazzino ='C'
+and ind_riga_stampata ='S'  )
+inner join gn_movtes_doc with (nolock)  on
+gn_movdet.num_rif_movimento = gn_movtes_doc.num_rif_movimento and
+gn_movdet.cod_societa = gn_movtes_doc.cod_societa 
+and dat_documento_i < @data
+where gn_movdet.cod_societa       = @societa 
+and   gn_movdet.cod_tipo_articolo = @tipo_articolo 
+and   gn_movdet.cod_articolo      = @articolo
+and   gn_movdet.cod_magazzino     = @magazzino 
+
+group by cod_tipo_articolo,cod_articolo,cod_magazzino,gn_movdet.cod_societa
+
+) m1
+on mg_anaart_saldi.cod_societa = m1.cod_societa and
+   mg_anaart_saldi.cod_magazzino = m1.cod_magazzino and
+   mg_anaart_saldi.cod_tipo_articolo = m1.cod_tipo_articolo and
+   mg_anaart_saldi.cod_articolo = m1.cod_articolo
+
+
+return @giac
+
+END

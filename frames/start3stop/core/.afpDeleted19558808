@@ -1,0 +1,96 @@
+<?php
+class stMarcatura {
+
+	private $maestro;
+
+	private $marcatura=array();
+	private $lamentato=array();
+	private $tipo="";
+	
+	private $serv;
+	private $special="";
+	private $special_obj;
+
+	function __construct($maestro,$a,$odl_servizio) {
+	
+		$this->maestro=$maestro;
+		
+		//==================================================
+		//DECIDI COSA FARE DELLA MARCATURA IN BASE ALLA DATA E ORA DI APERTURA
+		//==================================================
+
+		$this->marcatura=$a;
+		if (array_key_exists("mov",$a)) {
+			//$this->lamentato=$maestro->st_get_lamentato($a[mov],$a[inc]);
+			$this->lamentato=$maestro->st_get_lamentati($a[mov]);
+			$this->tipo="ultima";
+		}
+		else {
+			//$this->lamentato=$maestro->st_get_lamentati($a[num_rif_movimento],$a[cod_inconveniente]);
+			$this->lamentato=$maestro->st_get_lamentati($a[num_rif_movimento]);
+			$this->tipo="aperta";
+		}
+		
+		$this->serv=(array_key_exists($this->lamentato[0][mov],$odl_servizio)?1:0);
+		
+		//SCRIVI NOTE = INFO SPECIAL
+		$this->special=substr($a[des_note],0,3);
+		$this->special_obj=json_decode(substr($a[des_note],3));
+	}
+		
+	function draw() {
+		echo '<table class="lam_table">';
+			echo '<colgroup>';
+				echo '<col span="1" width="10"/>';
+				echo '<col span="1" width="80"/>';
+				echo '<col span="1" width="300"/>';
+				echo '<col span="1" width="100"/>';
+				echo '<col span="1" width="120"/>';
+				echo '<col span="1" width="70"/>';
+				echo '<col span="1" width="30"/>';
+				echo '<col span="1" width="130"/>';
+				echo '<col span="1" width="70"/>';
+				echo '<col span="1" width="250"/>';
+			echo '</colgroup>';
+			echo '<thead>';
+				echo '<tr>';
+					echo '<th></th>';
+					echo '<th>Riferimento</th>';
+					echo '<th>Descrizione</th>';
+					echo '<th>Pos.Lav.</th>';
+					echo '<th>Marc.Coll/Tot</th>';
+					echo '<th>Eff.</th>';
+					echo '<th>M</th>';
+					echo '<th>Addebito</th>';
+					echo '<th></th>';
+					echo '<th></th>';
+				echo '</tr>';
+			echo '</thead>';
+			echo '<tbody>';
+				call_user_func(array($this, "draw_".$this->tipo));
+			echo '</tbody>';
+		echo '</table>';
+		
+		//echo json_encode($this->marcatura);
+		//echo json_encode($this->lamentato);
+	}
+	
+	function draw_marc_intrest() {
+		echo '<tr>';
+			echo '<td></td>';
+			echo '<td>'.$lam[mov].'</td>';
+			echo '<td style="text-align:left;"><U>'.addslashes(substr(strtolower($lam[des_ragsoc]),0,35)).'</U></td>';
+			echo '<td style="text-align:left;">'.$lam[nome].'</td>';
+			echo '<td colspan="5"></td>';
+		echo '</tr>';
+	}
+	
+	function draw_aperta() {
+		
+	}
+	
+	function draw_ultima() {
+	}
+		
+}
+?>

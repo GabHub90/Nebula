@@ -1,0 +1,69 @@
+ .ensOverviewContainer{
+     position:relative;
+     width:100%;
+     height:100%;
+     overflow-x:scroll;
+ }
+
+ .ensOverview {
+     position:relative;
+     width:max-content;
+     margin-top:1%;
+     height:95%;
+ }
+
+ .ensRepDiv {
+     position:relative;
+     display:inline-block;
+     vertical-align:top;
+     width:250px;
+     height:100%;
+     padding:5px;
+     box-sizing: border-box;
+     border:1px solid black;
+     margin-left:5px;
+     margin-right:5px;
+ }
+
+ .ensRepDivTitle {
+     height:8%;
+     font-weight:bold;
+     background-color:oldlace;
+ }
+
+ .ensRepDivBodyContainer {
+    height:92%;
+    width:100%;
+    overflow-y:scroll;
+}
+
+.ensRepDivBody {
+    width:90%;
+    padding:3px;
+    box-sizing: border-box;
+}
+
+.ensRepDivElem {
+    width:100%;
+    min-height:40px;
+    border:1px solid black;
+    margin-top: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.ensRepartoLeft {
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+    width:25%;
+    height:100%;
+}
+
+.ensRepartoRight {
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+    width:75%;
+    height:100%;
+}

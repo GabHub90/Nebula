@@ -1,0 +1,195 @@
+a {
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	padding: 2px;
+}
+th {
+	text-align:center;
+	background-color:#dddddd;
+}
+td {
+	border-bottom-color: #000000;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	height:20px;
+}
+td.tab {
+	border-width: 0px;
+}
+.num {
+	font: 12px verdana,tahoma,arial;
+	color: #bf2ae6; 
+	margin-left:10px;
+	font-weight: bold;
+}
+.error{
+	font: 12px verdana,tahoma,arial;
+	color: red; 
+	margin-left:10px;
+	font-weight: bold;
+}
+.cornice {
+	font: 14px verdana,tahoma,arial;
+	background-color: #A04009;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-indent: 10px;
+}
+.cornicemag {
+	font: 14px verdana,tahoma,arial;
+	background-color: #008800;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-indent: 10px;
+}
+.corniceauv {
+	font: 14px verdana,tahoma,arial;
+	background-color: #aa1110;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-indent: 10px;
+}
+.cornicevwv {
+	font: 14px verdana,tahoma,arial;
+	background-color: #2299bb;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-indent: 10px;
+}
+.cornicepov {
+	font: 14px verdana,tahoma,arial;
+	background-color: #eeac3b;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-indent: 10px;
+}
+.titolo {
+	font: 16px verdana,tahoma,arial;
+	font-weight: 700;
+	color: #802080;
+	text-align: left;
+	text-indent: 10px;
+}
+.parte {
+	font: 12px verdana,tahoma,arial;
+	color: black; 
+	margin-left:10px;
+	font-weight: bold;
+}
+.chr {
+	font: 12px verdana,tahoma,arial;
+	color: black; 
+	font-weight: bold;
+	vertical-align: middle;
+	text-align:right;
+}
+.chr2 {
+	font: 10px verdana,tahoma,arial;
+	color: #4650e6; 
+	font-weight: bold;
+	vertical-align: middle;
+	text-align:right;
+}
+.opzioni {
+	font: 10px verdana,tahoma,arial;
+	color: black; 
+	text-align: center;
+	background-color: #aaaaaa;
+}
+.contenuto {
+	font: 14px verdana,tahoma,arial;
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 15px;
+	vertical-align: middle;	
+}
+.corpo {
+	font: 14px verdana,tahoma,arial;
+	color: #4650e6;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;	
+}
+.ora {
+	font: 14px verdana,tahoma,arial;
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+.modello {
+	font: 14px verdana,tahoma,arial;
+	font-weight: bold;
+	color: white; 
+	width: 150px;
+	background-color: #ff9224;
+	margin: 10px;
+}
+.freccia {
+	vertical-align:middle;
+	width: 25px;
+	height: 25px;
+}
+.freccia2 {
+	vertical-align:middle;
+	width: 20px;
+	height: 20px;
+}
+.invia {
+	width: 30px;
+	height: 20px;
+}
+.butinvia {
+	font: 12px verdana,tahoma,arial;
+	color: black;
+	font-weight: bold;
+	margin:2px;
+	width:65px;
+	height: 40px;	
+	font-size:9px;
+	padding: 0px;
+}
+.overlay {
+	background-color: #000; 
+	/*opacity: .9; */
+	/*filter: alpha(opacity=70); */
+	position: absolute; 
+	top: 50%; 
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -175; 
+	width: 600px; 
+	height: 350px;
+	z-index: 10;
+	padding: 5px;
+}
+.overtxt {
+	font: 12px verdana,tahoma,arial;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-align: left;
+	opacity: 1;
+}
+.overtab {
+	font: 12px verdana,tahoma,arial;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-align: left;
+	opacity: 1;
+}
+.sender {
+	position:absolute;
+	width: 595px;
+	height: 100px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	color: black;
+	top: 140px;
+	background-color: white;
+}
+
+

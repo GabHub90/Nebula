@@ -1,0 +1,27 @@
+//popolazione di prova di AVALON_lamextra
+
+insert into avalon_lamextra
+SELECT
+'c',
+num_rif_movimento,
+cod_inconveniente,
+CASE
+    when qta_tempario>qta_ore_prenotazione then qta_tempario*100
+    ELSE qta_ore_prenotazione*100
+END,
+cod_reparto_inc,
+dat_prenotazione_inc,
+dat_chiusura_inc,
+gab_dist_inc
+FROM [gc_azi_gabellini_prod].[dbo].gn_movdet where dat_prenotazione_inc>'20211231'
+
+
+//update subrep dms con subrep nebula
+
+update lex
+set lex.subrep=sr.subrep
+from AVALON_lamextra lex
+inner join QUARTET2_subrep sr ON lex.subrep=sr.concerto
+
+
+

@@ -1,0 +1,13 @@
+.gommaio {
+    font-size:12pt;
+}
+
+.gommaio label {
+    font-weight:bold;
+    font-size:0.9em;
+}
+
+.gommaio select {
+    font-size:1.2em;
+    width:80%;
+}

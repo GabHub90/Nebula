@@ -1,0 +1,18 @@
+CREATE FUNCTION dbo.fnOT_lams 
+(
+  @rif varchar(8)
+)
+RETURNS varchar(1000)
+AS
+BEGIN
+  DECLARE @result varchar(1000)
+  SET @result = null
+ 
+  SELECT @result = IsNull(@result + '<br/>', '') + t1.des
+  FROM (
+  SELECT des_riga AS des FROM GN_movdet
+  WHERE num_rif_movimento=@rif AND ind_tipo_riga='I'
+  )AS t1
+   
+  RETURN @result
+END

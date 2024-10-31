@@ -1,0 +1,82 @@
+.qc_top_div {
+    position:relative;
+    height:6%;
+}
+
+.qc_main_div {
+    position:relative;
+    height:94%;
+}
+
+.qc_left_div {
+    position:relative;
+    display:inline-block;
+    width:39.5%;
+    height:99%;
+    padding:3px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.qc_right_div {
+    position:relative;
+    display:inline-block;
+    width:59.5%;
+    border-width: 3px;
+    border-style: solid;
+    height:99%;
+    margin-left:1%;
+    padding:3px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.qc_nav_button {
+    position:relative;
+    font-weight:bold;
+    font-size:larger;
+    margin-left:15px;
+}
+
+.qcListTitle {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.8em;
+    height:70px;
+    border-bottom:1px dotted black;
+}
+
+.qcList {
+    height:470px;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.qcListElement {
+    /*border-top:2px solid #cccccc;*/
+    border-bottom:2px solid black;
+    margin-top:3px;
+    padding:5px;
+    box-sizing: border-box;
+    width:95%;
+}
+
+.qcElementIntest {
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+.qcElementModulo {
+    position:relative;
+    margin-top:5px;
+    border:1px solid #999999;
+    padding:3px;
+    box-sizing: border-box;
+}
+
+.qcInfoLabel {
+    font-weight:bold;
+}

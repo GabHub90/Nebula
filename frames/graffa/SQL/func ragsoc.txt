@@ -1,0 +1,8 @@
+create function bf_nd_get_ragsoc (@rag_id varchar(6))
+returns varchar(60)
+As
+BEGIN
+	DECLARE @ragsoc as varchar(60)
+	select @ragsoc=des_ragsoc from gn_anagrafiche where cod_anagra=@rag_id
+	return @ragsoc
+END

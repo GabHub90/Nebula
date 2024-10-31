@@ -1,0 +1,307 @@
+@media print {
+   
+	@page {size: portrait}
+	
+    .no-print , .no-print *
+    {
+        display: none !important;
+    }
+    
+    .carb_st_lista_div td {
+    	border-bottom: 1px solid black;
+    }
+    
+    .carb_st_lista_div th {
+    	border-bottom: 1px solid black;
+    }
+    
+    .st_chk_print {
+    	display: none !important;
+    }
+    
+    .st_chkspan_print {
+    	display: inline !important;
+    }
+	
+	.carb_pdf_print {
+		display: inline !important;
+	}
+}
+
+
+@media screen {
+	
+	body {
+		font-family:arial;
+		font-size:9pt;
+		width: 1200px;
+		overflow-x: hidden;
+	}
+	
+	label {
+		font-size:9pt;
+		font-weight:bold;
+	}
+	
+	.carb_cover_sx {
+		position: absolute;
+		top: 7px;
+		left: 0px;
+		width: 100%;
+		height:120%;
+		background-color: #eeeeee;
+		opacity: 0.6;
+		display:none;
+		z-index:10;
+	}
+	
+	.carb_cover {
+		position: absolute;
+		top: 7px;
+		left: 0px;
+		width: 100%;
+		height:120%;
+		background-color: #eeeeee;
+		opacity: 0.6;
+		display:none;
+		z-index:10;
+	}
+	
+	.carb_st_query_cover {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height:100%;
+		background-color: #eeeeee;
+		opacity: 0.6;
+		display:none;
+		z-index:10;
+	}
+	
+	.carb_error {
+		color: red;
+		font-size: 9pt;
+		font-weight: bold;
+		position:relative;
+		width:100%;
+	}
+	
+	/* TITIOLO */
+	
+	.carb_title_div {
+		position:relative;
+		width:100%;
+		color: orange;
+	}
+	
+	.carb_title_icon {
+		position:relative;
+		width: 50px;
+		height:50px;
+		left: 20px;
+		top: 10px;
+	}
+	
+	.carb_title_span {
+		position:relative;
+		width:200px;
+		left: 30px;
+		font-size:15pt;
+		font-weight:bold;
+		color: orange;
+	}
+	
+	.carb_title_img {
+		position:relative;
+		width: 30px;
+		height:30px;
+		margin-left: 25px;
+		top: 5px;
+	}
+	
+	/* MAIN */
+	
+	.carb_main {
+		position:absolute;
+		top:0px;
+		left:0px;
+		padding:3px;
+		width:600px;
+		height:100%;
+		box-sizing:border-box;
+	}
+	
+	.carb_right {
+		position:absolute;
+		top:0px;
+		left:600px; 
+		padding:5px;
+		width:570px;
+		height: 100%;
+		overflow-x: hidden;
+		box-sizing:border-box;
+	}
+	
+	
+	/* HOME */
+	
+	.carb_lista_tt {
+		border-collapse:collapse;
+		font-size:11pt;
+		text-align:  center;
+	}
+	
+	.carb_lista_tt_tr1 {
+		background-color: white;
+	}
+	
+	.carb_lista_tt_tr2 {
+		background-color: #dddddd;
+	}
+	
+	.carb_lista_tt_tr3 {
+		background-color: red;
+	}
+	
+	.carb_storico td {
+		border-top: 1px solid #333;
+		border-bottom: 1px solid #333;
+	}
+	
+	.carb_pdf {
+		position: absolute;
+		left: 650px;
+		top: 0px;
+		width: 500px;
+		height: 600px;
+		display: inline;
+		
+	}
+	
+	.tooltip {
+	    position: relative;
+	    display: inline-block;
+	   /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+	}
+	
+	/* Tooltip */
+	.tooltip .tooltiptext {
+	    /*visibility: hidden;*/
+	    display: none;
+	    width: 250px;
+	    background-color: #999;
+	    color: #fff;
+	    text-align: left;
+	    padding: 5px;
+	    border-radius: 6px;
+	
+	    /* Position the tooltip text */
+	    position: absolute;
+	    z-index: 20;
+	    bottom: -20px;
+	    left: 20px;
+	    /*margin-left: -125px;*/
+	
+	    /* Fade in tooltip */
+	    opacity: 0;
+	    transition: opacity 0.5s;
+	}
+	
+	
+	/*.tooltip .tooltiptext::after {
+	    content: "";
+	    position: absolute;
+	    top: 100%;
+	    left: 0px;
+	    margin-left:  0px;
+	    border-width: 5px;
+	    border-style: solid;
+	    border-color: #555 transparent transparent transparent;
+	}*/
+	
+	
+	.tooltip:hover .tooltiptext {
+	    /*visibility: visible;*/
+	    display:inline;
+	    opacity: 1;
+	}
+	
+	.tooltip label {
+		color: aqua;	
+	}
+	
+	
+	/*STORICO*/
+	
+	.carb_st_lista_div {
+		position:relative;
+		top: 10px;
+		width:700px;
+		height: 600px;
+		padding: 5px;
+		overflow-y: scroll;
+		border-style: solid;
+		border-color: #872929;
+	}
+	
+	.carb_st_lista_div td {
+		border-bottom: 1px solid #3a2929;
+	}
+	
+	.carb_st_lista_div th {
+		border-bottom: 1px solid #3a2929;
+	}
+	
+	.carb_st_annulla {
+		position: absolute;
+		width: 800px;
+		top: 50px;
+		left: 50%;
+		background-color:white;
+		padding: 10px;
+		display: none;
+		z-index:20;
+	}
+	
+	/* PDF */
+	
+	.vers_pdf {
+		position:absolute;
+		left: 400px;
+		top: -45px;
+		width:500px;
+		height:600px;
+		border: 1px solid #aaaaaa;
+	}
+	
+	.carb_lista_tt_storico {
+		border-collapse:collapse;
+		position: relative;
+		top: 20px;
+		font-size: 20pt;
+	}
+	
+	.carb_lista_tt_storico td {
+		border-bottom: 1px solid #000000;
+	}
+	
+	
+	#carb_buono_stampa_tab td {
+		min-height: 25px;
+		height: 25px;
+	}
+	
+	/*download */
+	
+	#download {
+		position:absolute;
+		width: 10px;
+		height: 10px;
+		top: 0px;
+		left: 100%;
+		margin-left: -15px;
+	}
+	
+	
+}

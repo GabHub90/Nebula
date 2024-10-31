@@ -1,0 +1,34 @@
+.timeLeft {
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+    border-right:1px solid black;
+    width:64%;
+    height:100%;
+    box-sizing:border-box;
+}
+
+.timeRight {
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+    width:36%;
+    height:100%;
+    padding:2px;
+    box-sizing:border-box;
+}
+
+.time_cal_table {
+    width:100%;
+}
+
+.time_cal_day_title {
+    position:relative;
+    width:100%;
+    padding:2px;
+    box-sizing: border-box;
+    height:22px;
+    font-size:0.8em;
+    font-weight:bold;
+}
+

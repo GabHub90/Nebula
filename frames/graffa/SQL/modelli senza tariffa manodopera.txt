@@ -1,0 +1,3 @@
+select * from tb_vgi_tipo_veicolo as t1
+left outer join tb_mag_anasco_mo_ente_modello as t2 on t2.cod_modello=t1.cod_vw_tipo_veicolo
+where t1.cod_vw_marca='V' and t2.cod_classe_sconto is null

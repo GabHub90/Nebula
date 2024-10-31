@@ -1,0 +1,33 @@
+.ov_main_div {
+    position:relative;
+    height:100%;
+}
+
+.ov_left_div {
+    position:relative;
+    display:inline-block;
+    width:73.5%;
+    height:99%;
+    padding:3px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.ov_right_div {
+    position:relative;
+    display:inline-block;
+    width:25.5%;
+    border-width: 3px;
+    border-style: solid;
+    height:99%;
+    margin-left:1%;
+    padding:5px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

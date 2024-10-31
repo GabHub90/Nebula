@@ -1,0 +1,66 @@
+.ctv_main_div {
+    position:relative;
+    height:88%;
+}
+
+.ctv_left_div {
+    position:relative;
+    display:inline-block;
+    width:25.5%;
+    border-width: 3px;
+    border-style: solid;
+    height:99%;
+    padding:5px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color:brown;
+    
+}
+
+.ctv_right_div {
+    position:relative;
+    display:inline-block;
+    width:73.5%;
+    margin-left:1%;
+    height:99%;
+    padding:3px;
+    box-sizing: border-box;
+    vertical-align: top;
+    border-top:1px solid darkgrey;
+    /*
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 3px;
+    border-style: solid;
+    */
+}
+
+/*//////////////////////////////////////////////*/
+
+.ctv_moduloP_tag {
+    border:2px solid #dea400;
+    margin-top:2px;
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    padding:2px;
+    box-sizing:border-box;
+    display:table;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url(http://10.55.99.14/nebula/apps/centavos/img/sfondo_principale.png);
+}
+
+.ctv_moduloM_tag {
+    border:2px solid #616060;
+    margin-top:2px;
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    padding:2px;
+    box-sizing:border-box;
+    display:table;
+    background-image: url(http://10.55.99.14/nebula/apps/centavos/img/sfondo_modificatore.png);
+}
